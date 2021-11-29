@@ -11,5 +11,5 @@ docker build -t devopstestlab/bats .
 Example :
 
 ```
-docker run --rm -v $(pwd)/tests:/tests -v /var/run/docker.sock:/var/run/docker.sock devopstestlab/bats docker-nginx
+docker run --rm -v $(pwd)/tests:/tests -v /var/run/docker.sock:/var/run/docker.sock devopstestlab/bats
 ```

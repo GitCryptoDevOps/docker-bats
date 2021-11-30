@@ -13,4 +13,4 @@ RUN npm i tap-junit
 RUN find / -name tap-junit
 COPY ./run-bats.sh /usr/bin
 
-ENTRYPOINT ["/usr/bin/run-bats.sh"]
+CMD /usr/bin/run-bats.sh
